@@ -1,0 +1,1828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaintCenter - boiay ortalygy</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/menu.js" defer></script>
+  <script src="./assets/js/swiper.js" defer></script>
+  <script src="./assets/js/more.js" defer></script>
+  <script src="./assets/js/accordion.js" defer></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <div class="header-logo">
+          <img src="./assets/images/logo.svg" alt="PaintCenter logo" class="header-logo__img">
+        </div>
+        <nav class="nav-main">
+          <ul class="nav-main__list">
+            <li class="nav-main__item">
+              <a href="#" class="nav-main__link">О Магазине</a>
+            </li>
+            <li class="nav-main__item nav-main__submenu">
+              <a href="#" class="nav-main__link">
+                <div class="nav-main-link-box">
+                  <p>типы красок</p>
+                  <img src="./assets/images/arrow-down.svg" alt="">
+                </div>
+              </a>
+              <div class="submenu">
+                <ul class="submenu__list">
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Премиальные и среднебюджетные краски</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Фасадные краски высшего класса</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Краски для мебели, дверей, окон, полов, лестниц</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Краски для деревянных поверхностей</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Краски для металлических поверхностей</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-main__item">
+              <a href="#" class="nav-main__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-contacts">
+          <p class="header-contacts__schedule">Время работы: Ежедневно с 10:00 до 20:00</p>
+          <div class="contacts _icon">
+            <a href="tel:+77780041090" class="contacts__number">+7 778 004 10 90</a>
+          </div>
+        </div>
+        <!-- mobile head version -->
+        <div class="burger">
+          <img src="./assets/images/burger.svg" alt="Menu">
+        </div>
+        <nav class="nav-main-mobile">
+          <img class="burger-close" src="./assets/images/burger-close.svg" alt="Close menu">
+          <ul class="nav-main__list">
+            <ul class="nav-main-mobile__item">
+              <a href="#" class="nav-main__link">О Магазине</a>
+            </ul>
+            <ul class="nav-main-mobile__item nav-main-mobile__btn">
+              <a href="#" class="nav-main__link">типы красок</a>
+            </ul>
+            <ul class="nav-main-mobile__item">
+              <a href="#" class="nav-main__link">Контакты</a>
+            </ul>
+            <ul class="nav-main-mobile__item">
+              <a href="tel:+77780041090" class="nav-main__link">+7 778 004 10 90</a>
+            </ul>
+          </ul>
+        </nav>
+        <div class="submenu-m">
+          <img src="./assets/images/arrow-left.svg" alt="Arrow left" class="submenu-close__btn">
+          <ul class="submenu-m__list">
+            <li class="submenu-m__item">
+              <a href="#" class="submenu-m__link">Премиальные и среднебюджетные краски</a>
+            </li>
+            <li class="submenu-m__item">
+              <a href="#" class="submenu-m__link">Фасадные краски высшего класса</a>
+            </li>
+            <li class="submenu-m__item">
+              <a href="#" class="submenu-m__link">Краски для мебели, дверей, окон, полов, лестниц</a>
+            </li>
+            <li class="submenu-m__item">
+              <a href="#" class="submenu-m__link">Краски для деревянных поверхностей</a>
+            </li>
+            <li class="submenu-m__item">
+              <a href="#" class="submenu-m__link">Краски для металлических поверхностей</a>
+            </li>
+          </ul>
+        </div>
+        <!-- mobile end version -->
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-desktop-container">
+      <div class="main-desktop">
+        <div class="main-desktop-text">
+          <h1 class="main-desktop-content__title">Высококачественные краски для вашего идеального пространства</h1>
+          <div class="main-desktop-content-btns">
+            <a href="#" class="btn btn-red btn-icon">Заказать</a>
+            <a href="#" class="btn btn-green btn-icon">Позвонить</a>
+          </div>
+        </div>
+        <div class="main-desktop-content">
+          <h4 class="swiper__title">Краски на различные типы поверхности:</h4>
+          <!-- Swiper -->
+          <div class="main-swiper">
+            <div class="swiper mainDesktopSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="main-swiper-slide">
+                    <div class="main-swiper-slide__bg"></div>
+                    <img class="main-swiper__img" src="./assets/images/main-img-1.jfif" alt="">
+                    <p class="main-swiper-slide__text">Для стен и потолков</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main-swiper-slide">
+                    <div class="main-swiper-slide__bg"></div>
+                    <img class="main-swiper__img" src="./assets/images/main-img-2.jfif" alt="">
+                    <p class="main-swiper-slide__text">Для фасадов</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main-swiper-slide">
+                    <div class="main-swiper-slide__bg"></div>
+                    <img class="main-swiper__img" src="./assets/images/main-img-3.jfif" alt="">
+                    <p class="main-swiper-slide__text">Для дверей, окон, мебелей, лестниц, плинтусов, кафеля</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main-swiper-slide">
+                    <div class="main-swiper-slide__bg"></div>
+                    <img class="main-swiper__img" src="./assets/images/main-img-4.jfif" alt="">
+                    <p class="main-swiper-slide__text">Для металлических поверхностей</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main-swiper-slide">
+                    <div class="main-swiper-slide__bg"></div>
+                    <img class="main-swiper__img" src="./assets/images/main-img-5.jfif" alt="">
+                    <p class="main-swiper-slide__text">Для деревянных поверхностей</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-swiper-btns">
+              <div class="swiper-button-next swiper-button-next-main"></div>
+              <div class="swiper-button-prev swiper-button-prev-main"></div>
+              <div class="swiper-pagination-main"></div>
+            </div>
+          </div>
+        </div>
+        <div class="main-mobile-content-btns">
+          <a href="#" class="btn btn-red btn-icon">Заказать</a>
+          <a href="#" class="btn btn-green btn-icon">Позвонить</a>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="main">
+        <h1 class="main__title">
+          Высококачественные краски для вашего идеального пространства
+        </h1>
+        <h4 class="swiper__title">Краски на различные типы поверхности:</h4>
+        Swiper
+        <div class="main-swiper">
+          <div class="swiper mainSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="main-swiper__img" src="./assets/images/main-img-1.jfif" alt="">
+              </div>
+              <div class="swiper-slide"><img class="main-swiper__img" src="./assets/images/main-img-2.jfif" alt="">
+              </div>
+              <div class="swiper-slide"><img class="main-swiper__img" src="./assets/images/main-img-3.jfif" alt="">
+              </div>
+              <div class="swiper-slide"><img class="main-swiper__img" src="./assets/images/main-img-4.jfif" alt="">
+              </div>
+              <div class="swiper-slide"><img class="main-swiper__img" src="./assets/images/main-img-5.jfif" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next swiper-button-next-main"></div>
+          <div class="swiper-button-prev swiper-button-prev-main"></div>
+          <div class="swiper-pagination-main"></div>
+        </div>
+        <div class="main-btns">
+          <a href="#" class="btn btn-red btn-icon">Заказать</a>
+          <a href="#" class="btn btn-green btn-icon">Позвонить</a>
+        </div>
+      </div> -->
+  </main>
+
+  <!-- paints head light -->
+  <section class="paints-bg-light paints-desktop">
+    <div class="paints-bg__title">
+      <h2 class="paints__title">Типы красок</h2>
+    </div>
+    <div class="container">
+      <div class="paints">
+        <div class="paints-content-small">
+          <h2 class="paints-content-small__title">
+            Премиальные и среднебюджетные, профессиональные интерьерные краски для стен и потолков
+          </h2>
+          <ul class="paints-content-small__list">
+            <li class="paints-content-small__item">
+              Моющиеся, гипоаллергенные и экологически чистые решения
+            </li>
+            <li class="paints-content-small__item">
+              Ультра-стойкие покрытия с долговечным цветом и защитой от
+              выгорания</li>
+            <li class="paints-content-small__item">
+              Влагостойкие краски для ванных комнат и кухонь с исключительной защитой от плесени
+            </li>
+          </ul>
+        </div>
+        <div class="paints-carts-recommended">
+          <div class="paints-carts__title">МЫ РЕКОМЕНДУЕМ</div>
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Easycare</p>
+          <p class="paints-carts__desc">
+            Краска для кухни Dulux Easycare - это исключительно прочная жиростойкая..
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">
+            Dulux Paint Mixing Eggshell
+          </p>
+          <p class="paints-carts__desc">
+            Прочная отделка с низким блеском для внутренней древесины и металла (включая нагретые поверхности).
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Weathershield</p>
+          <p class="paints-carts__desc">
+            Смешивание цветов Dulux Weathershield Текстурированная краска для каменной кладки - это внешняя краска,
+            хорошая для покрытия неровных поверхностей.
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield-small.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield-small.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Weathershield Быстросохнущий внешний атлас</p>
+          <p class="paints-carts__desc">
+            Для идеальной атмосферостойкой атласной отделки на вашем внешнем дереве и металле
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Eggshell</p>
+          <p class="paints-carts__desc">
+            Прочная отделка с низким блеском для внутренней древесины и металла (включая нагретые поверхности).
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+      </div>
+      <div class="paints-faq">
+        <p class="paints-faq__text">Не уверены, какую краску для стен и потолков выбрать?</p>
+        <a href="#" class="btn btn-red btn-paints-faq">ЗАДАТЬ ВОПРОС</a>
+      </div>
+  </section>
+  <!-- paints end light -->
+
+  <!-- paints head dark -->
+  <section class="paints-bg-dark paints-desktop">
+    <div class="container">
+      <div class="paints paints-dark">
+        <div class="paints-content-small paints-content-small-house">
+          <h2 class="paints-content-small__title">
+            Фасадные краски высшего класса
+          </h2>
+          <ul class="paints-content-small-house__list">
+            <li class="paints-content-small__item">
+              С максимальной устойчивостью к атмосферным воздействиям, защита от ультрафиолета и влаги
+            </li>
+            <li class="paints-content-small__item">
+              Для премиальных наружных решений: фасады из кирпича, дерева, бетона
+            </li>
+            <li class="paints-content-small__item">
+              Долговечные покрытия, сохраняющие насыщенность цвета на десятилетия
+            </li>
+          </ul>
+        </div>
+        <div class="paints-carts-recommended">
+          <div class="paints-carts__title">МЫ РЕКОМЕНДУЕМ</div>
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Easycare</p>
+          <p class="paints-carts__desc">
+            Краска для кухни Dulux Easycare - это исключительно прочная жиростойкая..
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">
+            Dulux Paint Mixing Eggshell
+          </p>
+          <p class="paints-carts__desc">
+            Прочная отделка с низким блеском для внутренней древесины и металла (включая нагретые поверхности).
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Weathershield</p>
+          <p class="paints-carts__desc">
+            Смешивание цветов Dulux Weathershield Текстурированная краска для каменной кладки - это внешняя краска,
+            хорошая для покрытия неровных поверхностей.
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield-small.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield-small.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Weathershield Быстросохнущий внешний атлас</p>
+          <p class="paints-carts__desc">
+            Для идеальной атмосферостойкой атласной отделки на вашем внешнем дереве и металле
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Eggshell</p>
+          <p class="paints-carts__desc">
+            Прочная отделка с низким блеском для внутренней древесины и металла (включая нагретые поверхности).
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+      </div>
+      <div class="paints-faq paints-faq-light">
+        <p class="paints-faq__text">Не уверены, какую краску для стен и потолков выбрать?</p>
+        <a href="#" class="btn btn-red btn-paints-faq">ЗАДАТЬ ВОПРОС</a>
+      </div>
+  </section>
+  <!-- paints end dark -->
+
+  <!-- paints head light -->
+  <section class="paints-bg-light paints-desktop">
+    <div class="container">
+      <div class="paints">
+        <div class="paints-content-small paints-content-small__book">
+          <h2 class="paints-content-small__title">
+            Премиальные и среднебюджетные, профессиональные интерьерные краски для стен и потолков
+          </h2>
+          <ul class="paints-content-small__list">
+            <li class="paints-content-small__item">
+              Моющиеся, гипоаллергенные и экологически чистые решения
+            </li>
+            <li class="paints-content-small__item">
+              Ультра-стойкие покрытия с долговечным цветом и защитой от
+              выгорания</li>
+            <li class="paints-content-small__item">
+              Влагостойкие краски для ванных комнат и кухонь с исключительной защитой от плесени
+            </li>
+          </ul>
+        </div>
+        <div class="paints-carts-recommended">
+          <div class="paints-carts__title">МЫ РЕКОМЕНДУЕМ</div>
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Easycare</p>
+          <p class="paints-carts__desc">
+            Краска для кухни Dulux Easycare - это исключительно прочная жиростойкая..
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">
+            Dulux Paint Mixing Eggshell
+          </p>
+          <p class="paints-carts__desc">
+            Прочная отделка с низким блеском для внутренней древесины и металла (включая нагретые поверхности).
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Weathershield</p>
+          <p class="paints-carts__desc">
+            Смешивание цветов Dulux Weathershield Текстурированная краска для каменной кладки - это внешняя краска,
+            хорошая для покрытия неровных поверхностей.
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield-small.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield-small.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Weathershield Быстросохнущий внешний атлас</p>
+          <p class="paints-carts__desc">
+            Для идеальной атмосферостойкой атласной отделки на вашем внешнем дереве и металле
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Eggshell</p>
+          <p class="paints-carts__desc">
+            Прочная отделка с низким блеском для внутренней древесины и металла (включая нагретые поверхности).
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+      </div>
+      <div class="paints-faq">
+        <p class="paints-faq__text">Не уверены, какую краску для стен и потолков выбрать?</p>
+        <a href="#" class="btn btn-red btn-paints-faq">ЗАДАТЬ ВОПРОС</a>
+      </div>
+  </section>
+  <!-- paints end light -->
+
+  <!-- paints head dark -->
+  <section class="paints-bg-dark paints-desktop">
+    <div class="container">
+      <div class="paints paints-dark">
+        <div class="paints-content-small paints-content-small-house-wooden">
+          <h2 class="paints-content-small__title">
+            Фасадные краски высшего класса
+          </h2>
+          <ul class="paints-content-small-house__list">
+            <li class="paints-content-small__item">
+              С максимальной устойчивостью к атмосферным воздействиям, защита от ультрафиолета и влаги
+            </li>
+            <li class="paints-content-small__item">
+              Для премиальных наружных решений: фасады из кирпича, дерева, бетона
+            </li>
+            <li class="paints-content-small__item">
+              Долговечные покрытия, сохраняющие насыщенность цвета на десятилетия
+            </li>
+          </ul>
+        </div>
+        <div class="paints-carts-recommended">
+          <div class="paints-carts__title">МЫ РЕКОМЕНДУЕМ</div>
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Easycare</p>
+          <p class="paints-carts__desc">
+            Краска для кухни Dulux Easycare - это исключительно прочная жиростойкая..
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">
+            Dulux Paint Mixing Eggshell
+          </p>
+          <p class="paints-carts__desc">
+            Прочная отделка с низким блеском для внутренней древесины и металла (включая нагретые поверхности).
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Weathershield</p>
+          <p class="paints-carts__desc">
+            Смешивание цветов Dulux Weathershield Текстурированная краска для каменной кладки - это внешняя краска,
+            хорошая для покрытия неровных поверхностей.
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield-small.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield-small.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Weathershield Быстросохнущий внешний атлас</p>
+          <p class="paints-carts__desc">
+            Для идеальной атмосферостойкой атласной отделки на вашем внешнем дереве и металле
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Eggshell</p>
+          <p class="paints-carts__desc">
+            Прочная отделка с низким блеском для внутренней древесины и металла (включая нагретые поверхности).
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+      </div>
+      <div class="paints-faq paints-faq-light">
+        <p class="paints-faq__text">Не уверены, какую краску для стен и потолков выбрать?</p>
+        <a href="#" class="btn btn-red btn-paints-faq">ЗАДАТЬ ВОПРОС</a>
+      </div>
+  </section>
+  <!-- paints end dark -->
+
+  <!-- paints head light -->
+  <section class="paints-bg-light paints-desktop">
+    <div class="container">
+      <div class="paints">
+        <div class="paints-content-small paints-content-small__workplace">
+          <h2 class="paints-content-small__title">
+            Премиальные и среднебюджетные, профессиональные интерьерные краски для стен и потолков
+          </h2>
+          <ul class="paints-content-small__list">
+            <li class="paints-content-small__item">
+              Моющиеся, гипоаллергенные и экологически чистые решения
+            </li>
+            <li class="paints-content-small__item">
+              Ультра-стойкие покрытия с долговечным цветом и защитой от
+              выгорания</li>
+            <li class="paints-content-small__item">
+              Влагостойкие краски для ванных комнат и кухонь с исключительной защитой от плесени
+            </li>
+          </ul>
+        </div>
+        <div class="paints-carts-recommended">
+          <div class="paints-carts__title">МЫ РЕКОМЕНДУЕМ</div>
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Easycare</p>
+          <p class="paints-carts__desc">
+            Краска для кухни Dulux Easycare - это исключительно прочная жиростойкая..
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">
+            Dulux Paint Mixing Eggshell
+          </p>
+          <p class="paints-carts__desc">
+            Прочная отделка с низким блеском для внутренней древесины и металла (включая нагретые поверхности).
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Weathershield</p>
+          <p class="paints-carts__desc">
+            Смешивание цветов Dulux Weathershield Текстурированная краска для каменной кладки - это внешняя краска,
+            хорошая для покрытия неровных поверхностей.
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield-small.jpg"
+                  alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/weathershield-small.jpg"
+                  alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Weathershield Быстросохнущий внешний атлас</p>
+          <p class="paints-carts__desc">
+            Для идеальной атмосферостойкой атласной отделки на вашем внешнем дереве и металле
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-carts">
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/eggshell.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Paint Mixing Eggshell</p>
+          <p class="paints-carts__desc">
+            Прочная отделка с низким блеском для внутренней древесины и металла (включая нагретые поверхности).
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+      </div>
+      <div class="paints-faq">
+        <p class="paints-faq__text">Не уверены, какую краску для стен и потолков выбрать?</p>
+        <a href="#" class="btn btn-red btn-paints-faq">ЗАДАТЬ ВОПРОС</a>
+      </div>
+  </section>
+  <!-- paints end light -->
+
+  <!-- mobile paints head -->
+  <section class="paints-bg-light paints-mobile">
+    <div class="paints-bg__title">
+      <h2 class="paints__title">Типы красок</h2>
+    </div>
+    <div class="container">
+      <p class="paints-subtitle">*Премиальные и среднебюджетные, профессиональные</p>
+      <div class="paints">
+        <div class="paints-type">
+          <h2 class="paints-type__title">Интерьерные краски для стен и потолков</h2>
+          <ul class="paints-type__list">
+            <li class="paints-type__item">Моющиеся, гипоаллергенные и экологически чистые решения</li>
+            <li class="paints-type__item">Ультра-стойкие покрытия с долговечным цветом и защитой от выгорания</li>
+            <li class="paints-type__item">Влагостойкие краски для ванных комнат и кухонь с исключительной защитой от
+              плесени</li>
+          </ul>
+        </div>
+        <div class="paints-carts">
+          <div class="paints-carts__title">МЫ РЕКОМЕНДУЕМ</div>
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Easycare</p>
+          <p class="paints-carts__desc">
+            Краска для кухни Dulux Easycare - это исключительно прочная жиростойкая..
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-faq">
+          <h4 class="help-title">Нужна помощь с выбором краски?</h4>
+          <a href="#" class="btn help-btn">ЗАДАТЬ ВОПРОС</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="paints-bg-dark paints-mobile">
+    <div class="container">
+      <div class="paints">
+        <div class="paints-type">
+          <h2 class="paints-type__title">Фасадные краски высшего класса</h2>
+          <ul class="paints-type__list">
+            <li class="paints-type__item">С максимальной устойчивостью к атмосферным воздействиям, защита от
+              ультрафиолета и влаги</li>
+            <li class="paints-type__item">Для премиальных наружных решений: фасады из кирпича, дерева, бетона</li>
+            <li class="paints-type__item">Долговечные покрытия, сохраняющие насыщенность цвета на десятилетия</li>
+          </ul>
+        </div>
+        <div class="paints-carts">
+          <div class="paints-carts__title">МЫ РЕКОМЕНДУЕМ</div>
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Easycare</p>
+          <p class="paints-carts__desc">
+            Краска для кухни Dulux Easycare - это исключительно прочная жиростойкая..
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-faq">
+          <h4 class="help-title">Нужна помощь с выбором краски?</h4>
+          <a href="#" class="btn help-btn">ЗАДАТЬ ВОПРОС</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="paints-bg-light paints-mobile">
+    <div class="container">
+      <div class="paints">
+        <div class="paints-type">
+          <h2 class="paints-type__title">Краски для мебели, дверей, окон, полов, лестниц</h2>
+          <ul class="paints-type__list">
+            <li class="paints-type__item">Ультра-гладкие, идеально подходящие для высококачественной отделки</li>
+          </ul>
+        </div>
+        <div class="paints-carts">
+          <div class="paints-carts__title">МЫ РЕКОМЕНДУЕМ</div>
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Easycare</p>
+          <p class="paints-carts__desc">
+            Краска для кухни Dulux Easycare - это исключительно прочная жиростойкая..
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-faq">
+          <h4 class="help-title">Нужна помощь с выбором краски?</h4>
+          <a href="#" class="btn help-btn">ЗАДАТЬ ВОПРОС</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="paints-bg-dark paints-mobile">
+    <div class="container">
+      <div class="paints">
+        <div class="paints-type">
+          <h2 class="paints-type__title">Краски для деревянных поверхностей</h2>
+          <ul class="paints-type__list">
+            <li class="paints-type__item">Специальные пропитки для дерева, защищающие от гниения, плесени и насекомых, а
+              также усиливающие водоотталкивающие свойства.</li>
+            <li class="paints-type__item">Обеспечивают глубокое проникновение в древесину, сохраняя её естественный вид
+              и текстуру</li>
+          </ul>
+        </div>
+        <div class="paints-carts">
+          <div class="paints-carts__title">МЫ РЕКОМЕНДУЕМ</div>
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Easycare</p>
+          <p class="paints-carts__desc">
+            Краска для кухни Dulux Easycare - это исключительно прочная жиростойкая..
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-faq">
+          <h4 class="help-title">Нужна помощь с выбором краски?</h4>
+          <a href="#" class="btn help-btn">ЗАДАТЬ ВОПРОС</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="paints-bg-light paints-mobile">
+    <div class="container">
+      <div class="paints">
+        <div class="paints-type">
+          <h2 class="paints-type__title">Краски для металлических поверхностей</h2>
+          <ul class="paints-type__list">
+            <li class="paints-type__item">Премиальные составы, предотвращающие коррозию и обеспечивающие долговечную
+              защиту для металлических изделий и поверхностей.</li>
+            <li class="paints-type__item">Подходят для использования как внутри помещений, так и на открытом воздухе
+            </li>
+          </ul>
+        </div>
+        <div class="paints-carts">
+          <div class="paints-carts__title">МЫ РЕКОМЕНДУЕМ</div>
+          <div class="swiper paintsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+              <div class="swiper-slide"><img class="paints-swiper__img" src="./assets/images/dulux.jpg" alt="dulux">
+              </div>
+            </div>
+            <div class="swiper-button-next-paints"><img src="./assets/images/swiper-arrow-right.svg" alt=""></div>
+            <div class="swiper-button-prev-paints"><img src="./assets/images/swiper-arrow-left.svg" alt=""></div>
+          </div>
+          <p class="paints-carts__name">Dulux Easycare</p>
+          <p class="paints-carts__desc">
+            Краска для кухни Dulux Easycare - это исключительно прочная жиростойкая..
+          </p>
+          <div class="paints-carts__footer">
+            <p class="paints-carts__price">от 13 500₸</p>
+            <a href="#" class="paints-cart__btn"><img src="./assets/images/shopping-cart.svg" alt="Cart"></a>
+          </div>
+        </div>
+        <div class="paints-faq">
+          <h4 class="help-title">Нужна помощь с выбором краски?</h4>
+          <a href="#" class="btn help-btn">ЗАДАТЬ ВОПРОС</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- mobile paints end -->
+
+  <!-- map head -->
+  <section class="map">
+    <h2 class="map__title">
+      Как найти нас найти по 2GIS?
+    </h2>
+    <div class="makemap">
+      <iframe id="map_730144171" frameborder="0" width="100%" height="650px"
+        sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+      <script type="text/javascript">
+        (function (e, t) {
+          var r = document.getElementById(e);
+          r.contentWindow.document.open(),
+            r.contentWindow.document.write(atob(t)),
+            r.contentWindow.document.close()
+        })("map_730144171", "PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUpe3ZhciB0PUpTT04ucGFyc2UoZSkscj10Lm9yZGVyZWRHZW9tZXRyaWVzLG49dC5tYXBQb3NpdGlvbixhPXQuaXNXaGVlbFpvb21FbmFibGVkO2Z1bmN0aW9uIG8oZSl7cmV0dXJuIGRlY29kZVVSSUNvbXBvbmVudChhdG9iKGUpLnNwbGl0KCIiKS5tYXAoZnVuY3Rpb24oZSl7cmV0dXJuIiUiKygiMDAiK2UuY2hhckNvZGVBdCgwKS50b1N0cmluZygxNikpLnNsaWNlKC0yKX0pLmpvaW4oIiIpKX1ERy50aGVuKGZ1bmN0aW9uKCl7dmFyIGU9REcubWFwKCJtYXAiLHtjZW50ZXI6W24ubGF0LG4ubG9uXSx6b29tOm4uem9vbSxzY3JvbGxXaGVlbFpvb206YSx6b29tQ29udHJvbDohYX0pO0RHLmdlb0pTT04ocix7c3R5bGU6ZnVuY3Rpb24oZSl7dmFyIHQscixuLGEsbztyZXR1cm57ZmlsbENvbG9yOm51bGw9PT0odD1lKXx8dm9pZCAwPT09dD92b2lkIDA6dC5wcm9wZXJ0aWVzLmZpbGxDb2xvcixmaWxsT3BhY2l0eTpudWxsPT09KHI9ZSl8fHZvaWQgMD09PXI/dm9pZCAwOnIucHJvcGVydGllcy5maWxsT3BhY2l0eSxjb2xvcjpudWxsPT09KG49ZSl8fHZvaWQgMD09PW4/dm9pZCAwOm4ucHJvcGVydGllcy5zdHJva2VDb2xvcix3ZWlnaHQ6bnVsbD09PShhPWUpfHx2b2lkIDA9PT1hP3ZvaWQgMDphLnByb3BlcnRpZXMuc3Ryb2tlV2lkdGgsb3BhY2l0eTpudWxsPT09KG89ZSl8fHZvaWQgMD09PW8/dm9pZCAwOm8ucHJvcGVydGllcy5zdHJva2VPcGFjaXR5fX0scG9pbnRUb0xheWVyOmZ1bmN0aW9uKGUsdCl7cmV0dXJuInJhZGl1cyJpbiBlLnByb3BlcnRpZXM/REcuY2lyY2xlKHQsZS5wcm9wZXJ0aWVzLnJhZGl1cyk6REcubWFya2VyKHQse2ljb246ZnVuY3Rpb24oZSl7cmV0dXJuIERHLmRpdkljb24oe2h0bWw6IjxkaXYgY2xhc3M9J2J1bGxldC1tYXJrZXInIHN0eWxlPSdib3JkZXItY29sb3I6ICIrZSsiOyc+PC9kaXY+IixjbGFzc05hbWU6Im92ZXJyaWRlLWRlZmF1bHQiLGljb25TaXplOlsyMCwyMF0saWNvbkFuY2hvcjpbMTAsMTBdfSl9KGUucHJvcGVydGllcy5jb2xvcil9KX0sb25FYWNoRmVhdHVyZTpmdW5jdGlvbihlLHQpe2UucHJvcGVydGllcy5kZXNjcmlwdGlvbiYmdC5iaW5kUG9wdXAobyhlLnByb3BlcnRpZXMuZGVzY3JpcHRpb24pLHtjbG9zZUJ1dHRvbjohMCxjbG9zZU9uRXNjYXBlS2V5OiEwfSksZS5wcm9wZXJ0aWVzLnRpdGxlJiZ0LmJpbmRUb29sdGlwKG8oZS5wcm9wZXJ0aWVzLnRpdGxlKSx7cGVybWFuZW50OiEwLG9wYWNpdHk6MSxjbGFzc05hbWU6InBlcm1hbmVudC10b29sdGlwIn0pfX0pLmFkZFRvKGUpfSl9KSgneyJvcmRlcmVkR2VvbWV0cmllcyI6W3sidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiIzAyODFmMiIsInRpdGxlIjoiIiwiZGVzY3JpcHRpb24iOiIiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6Wzc2Ljk0NDY4Niw0My4yNTk3MDddfSwiaWQiOjg2M31dLCJtYXBQb3NpdGlvbiI6eyJsYXQiOjQzLjI1MzQ4NjI1ODI1MzEyNiwibG9uIjo3Ni45NDQ0NjU2MzcyMDcwNSwiem9vbSI6MTR9LCJpc1doZWVsWm9vbUVuYWJsZWQiOnRydWV9Jyk8L3NjcmlwdD48c2NyaXB0IGFzeW5jPSIiIHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbS9ndGFnL2pzP2lkPVVBLTE1ODg2NjE2OC0xIj48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+KGZ1bmN0aW9uKGUpe2Z1bmN0aW9uIHQoKXtkYXRhTGF5ZXIucHVzaChhcmd1bWVudHMpfXdpbmRvdy5kYXRhTGF5ZXI9d2luZG93LmRhdGFMYXllcnx8W10sdCgianMiLG5ldyBEYXRlKSx0KCJjb25maWciLGUpLHdpbmRvdy5ndGFnPXR9KSgnVUEtMTU4ODY2MTY4LTEnKTwvc2NyaXB0PjwvYm9keT4=")
+      </script>
+    </div>
+  </section>
+  <!-- map end -->
+
+  <!-- about head -->
+  <section class="about">
+    <div class="container">
+      <div class="about-box">
+        <div class="about-wrap">
+          <div class="about-wrap-content">
+            <p class="about__subtitle">О магазине</p>
+            <h2 class="about__title">
+              “Dulux Мастерская Цвета”
+               — место, где начинается фантазия!
+            </h2>
+            <img src="./assets/images/about.jfif" alt="About" class="about-m__img">
+            <p class="about__text">
+              DULUX Мастерская Цвета в торговом центре Zhibek Zholy работает с 2019 года. Мы являемся официальными
+              партнерами AkzoNobel Decor Asia (AND Asia) и предлагаем продукцию мировых брендов: Dulux, Marshall,
+              Pinotex
+              и Hammerite. Нашими красками окрашено более 100 000 квадратных метров — от стен и потолков в квартирах и
+              домах до офисов, торгово-развлекательных центров, фасадов зданий, мебели и других поверхностей. В нем
+              магазине Читать далее...<span class="btn-more">Читать далее...</span>
+              <span class="more-text">окрашено более 100 000 квадратных метров — от стен и потолков в квартирах и домах
+                до
+                офисов, торгово-развлекательных центров, фасадов зданий, мебели и других поверхностей.
+                В нашем магазине вы найдете краски высокого качества для любых типов поверхности. С помощью
+                высокоточного
+                колеровочного аппарата и лучших колорантов Ecotint у нас можно получить краску в более чем 25 000 цветов
+                и
+                оттенков.
+              </span>
+            </p>
+          </div>
+          <img src="./assets/images/about.jfif" alt="About" class="about__img">
+        </div>
+        <div class="about-wrap">
+          <div class="about-info">
+            <img class="about-info__icon" src="./assets/images/clock-d.svg" alt="clock">
+            <p class="about-info__desc">
+              График работы: ежедневно с 10:00 до 20:00, без перерывов и выходных. Это позволит вам приобрести краски в
+              удобное время. Мы также предлагаем доставку по г. Алматы прямо на ваш объект.
+            </p>
+          </div>
+          <div class="about-info">
+            <img class="about-info__icon" src="./assets/images/wallet-check-d.svg" alt="wallet">
+            <p class="about-info__desc">
+              Мы принимаем оплату картами, Kaspi QR, наличными и безналичным переводом (для юридических лиц). Выдаем
+              фискальные чеки и необходимые документы для вашей бухгалтерии.
+            </p>
+          </div>
+          <div class="about-info-m">
+            <img class="about-info-m__icon" src="./assets/images/clock.svg" alt="clock">
+            <p class="about-info-m__desc">
+              График работы: ежедневно с 10:00 до 20:00, без перерывов и выходных. Это позволит вам приобрести краски в
+              удобное время. Мы также предлагаем доставку по г. Алматы прямо на ваш объект.
+            </p>
+          </div>
+          <div class="about-info-m">
+            <img class="about-info-m__icon" src="./assets/images/wallet-check.svg" alt="clock">
+            <p class="about-info-m__desc">
+              График работы: ежедневно с 10:00 до 20:00, без перерывов и выходных. Это позволит вам приобрести краски в
+              удобное время. Мы также предлагаем доставку по г. Алматы прямо на ваш объект.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about end -->
+
+  <!-- interior head -->
+  <section class="interior">
+    <div class="container">
+      <div class="interior-wrap">
+        <div class="interior-wrap-content">
+          <h2 class="interior__title">
+            Создай свой идеальный интерьер с красками Dulux
+          </h2>
+          <p class="interior__desc">
+            Не знаете, с чего начать? Напишите нам в WhatsApp, и наш менеджер бесплатно проконсультирует вас по подбору
+            цвета и расскажет, как сделать ваш интерьер уникальным.
+          </p>
+        </div>
+        <a href="#" class="btn interior-btn interior-btn__icon">
+          написать на whatsapp
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- interior end -->
+
+  <!-- advantages head -->
+  <section class="advantages">
+    <div class="container">
+      <h2 class="advantages__title">Почему выбирают нас?</h2>
+      <div class="advantages-wrap">
+        <div class="advantages-contents">
+          <div class="advantages-content">
+            <div class="advantages-img__bg">
+              <img src="./assets/images/global.svg" alt="" class="advantages__img">
+            </div>
+            <p class="advantages__desc">Краски Dulux представлены более чем в 150 странах мира</p>
+          </div>
+          <div class="advantages-content">
+            <div class="advantages-img__bg">
+              <img src="./assets/images/lamp-charge.svg" alt="" class="advantages__img">
+            </div>
+            <p class="advantages__desc">Серия «Легко обновить» — инновационные краски для мебели, дверей, оконных рам,
+              плинтусов, лестниц и полов</p>
+          </div>
+          <div class="advantages-content">
+            <div class="advantages-img__bg">
+              <img src="./assets/images/group.svg" alt="" class="advantages__img">
+            </div>
+            <p class="advantages__desc">Краска Diamond в 10 раз прочнее обычных красок, служит до 25 лет</p>
+          </div>
+        </div>
+        <div class="advantages-contents">
+          <div class="advantages-content">
+            <div class="advantages-img__bg">
+              <img src="./assets/images/drop.svg" alt="" class="advantages__img">
+            </div>
+            <p class="advantages__desc">Ultra Resist — ультрастойкие краски с эффектом лотоса, отталкивающие грязь и
+              влагу
+            </p>
+          </div>
+          <div class="advantages-content">
+            <div class="advantages-img__bg">
+              <img src="./assets/images/wind.svg" alt="" class="advantages__img">
+            </div>
+            <p class="advantages__desc">Bindo Professional — краски и грунтовки для профессионалов, укрывистые и
+              быстросохнущие</p>
+          </div>
+          <div class="advantages-content">
+            <div class="advantages-img__bg">
+              <img src="./assets/images/brush.svg" alt="" class="advantages__img">
+            </div>
+            <p class="advantages__desc">Широкий выбор фирменных малярных инструментов высокого качества</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- advantages end -->
+
+  <!-- redesign head -->
+  <section class="redesign">
+    <div class="container">
+      <h2 class="interior__title">
+        Готовы преобразить ваш интерьер?
+      </h2>
+      <p class="interior__desc">
+        Не знаете, какой оттенок выбрать? Напишите нам в WhatsApp, и мы бесплатно поможем подобрать идеальные цвета,
+        чтобы создать уют и стиль в вашем доме!
+      </p>
+      <a href="#" class="btn interior-btn interior-btn__icon">
+        написать на whatsapp
+      </a>
+    </div>
+  </section>
+  <!-- redesign end -->
+
+  <!-- steps head  -->
+  <section class="steps">
+    <div class="container">
+      <h2 class="steps__title">Этапы работы</h2>
+      <div class="steps-wrap">
+        <div class="steps-contents">
+          <div class="steps-content">
+            <img src="./assets/images/01.svg" alt="">
+            <h4 class="steps-content__title">Консультация</h4>
+          </div>
+          <div class="steps-content">
+            <p class="steps-content__desc">
+              На первую встречу рекомендуется взять с собой любые материалы, которые помогут в выборе цветов. Это могут
+              быть визуализации интерьера или вдохновляющие фотографии.
+            </p>
+          </div>
+        </div>
+        <div class="steps-contents">
+          <div class="steps-content">
+            <img src="./assets/images/02.svg" alt="">
+            <h4 class="steps-content__title">Подбор цвета</h4>
+          </div>
+          <div class="steps-content">
+            <p class="steps-content__desc">
+              В нашем ассортименте по вееру Dulux представлено 2009 оттенков. Мы также работаем с палитрами RAL и NCS.
+              Можем создать любой желаемый цвет — просто предоставьте образец или палитру любого производителя, и мы
+              точно воспроизведем нужный оттенок.
+            </p>
+          </div>
+        </div>
+        <div class="steps-contents">
+          <div class="steps-content">
+            <img src="./assets/images/03.svg" alt="">
+            <h4 class="steps-content__title">Пробники и выкрасы</h4>
+          </div>
+          <div class="steps-content">
+            <p class="steps-content__desc">
+              После того как основные цвета выбраны, мы рекомендуем заказать пробник или готовый выкрас. Это позволит
+              вам увидеть и оценить цвет в вашем интерьере. Кроме того, выкрасы можно сохранить для дальнейшего подбора
+              тканей, обоев, фасадов и других элементов декора.
+            </p>
+          </div>
+        </div>
+        <div class="steps-contents">
+          <div class="steps-content">
+            <img src="./assets/images/04.svg" alt="">
+            <h4 class="steps-content__title">Выбор краски</h4>
+          </div>
+          <div class="steps-content">
+            <p class="steps-content__desc">
+              Осуществляется по таким важным параметрам, как степень блеска (от экстра матовой до глянцевой), прочность,
+              влагостойкость и другие характеристики. В каталогах компании представлено более 100 наименований покрытий,
+              и мы с удовольствием поможем вам подобрать идеальный вариант.
+            </p>
+          </div>
+        </div>
+        <div class="steps-contents">
+          <div class="steps-content">
+            <img src="./assets/images/05.svg" alt="">
+            <h4 class="steps-content__title">Колеровка</h4>
+          </div>
+          <div class="steps-content">
+            <p class="steps-content__desc">
+              Мы колеруем краску на фирменном оборудовании Akzo Nobel. Для оформления заказа важно точно знать площадь
+              окрашиваемых поверхностей. Краска любых оттенков всегда доступна, так как мы осуществляем подбор цвета и
+              колеровку на месте — быстро и удобно.
+            </p>
+          </div>
+        </div>
+        <div class="steps-contents">
+          <div class="steps-content">
+            <img src="./assets/images/06.svg" alt="">
+            <h4 class="steps-content__title">Оплата</h4>
+          </div>
+          <div class="steps-content">
+            <p class="steps-content__desc">
+              Оплатить заказ можно наличными, по безналичному расчету или с помощью банковской карты. При необходимости
+              доставка может быть включена в счет.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="steps-accordions">
+        <div class="steps-accordion">
+          <div class="steps-accordion-head">
+            <p class="steps-accordion-head__title">Консультация</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="steps-accordion-head__img">
+          </div>
+          <p class="steps-accordion-desc">
+            На первую встречу рекомендуется взять с собой любые материалы, которые помогут в выборе цветов. Это могут
+            быть визуализации интерьера или вдохновляющие фотографии.
+          </p>
+        </div>
+        <div class="steps-accordion">
+          <div class="steps-accordion-head">
+            <p class="steps-accordion-head__title">Подбор цвета</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="steps-accordion-head__img">
+          </div>
+          <p class="steps-accordion-desc">
+            На первую встречу рекомендуется взять с собой любые материалы, которые помогут в выборе цветов. Это могут
+            быть визуализации интерьера или вдохновляющие фотографии.
+          </p>
+        </div>
+        <div class="steps-accordion">
+          <div class="steps-accordion-head">
+            <p class="steps-accordion-head__title">Пробники и выкрасы</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="steps-accordion-head__img">
+          </div>
+          <p class="steps-accordion-desc">
+            На первую встречу рекомендуется взять с собой любые материалы, которые помогут в выборе цветов. Это могут
+            быть визуализации интерьера или вдохновляющие фотографии.
+          </p>
+        </div>
+        <div class="steps-accordion">
+          <div class="steps-accordion-head">
+            <p class="steps-accordion-head__title">Выбор краски</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="steps-accordion-head__img">
+          </div>
+          <p class="steps-accordion-desc">
+            На первую встречу рекомендуется взять с собой любые материалы, которые помогут в выборе цветов. Это могут
+            быть визуализации интерьера или вдохновляющие фотографии.
+          </p>
+        </div>
+        <div class="steps-accordion">
+          <div class="steps-accordion-head">
+            <p class="steps-accordion-head__title">Колеровка</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="steps-accordion-head__img">
+          </div>
+          <p class="steps-accordion-desc">
+            На первую встречу рекомендуется взять с собой любые материалы, которые помогут в выборе цветов. Это могут
+            быть визуализации интерьера или вдохновляющие фотографии.
+          </p>
+        </div>
+        <div class="steps-accordion">
+          <div class="steps-accordion-head">
+            <p class="steps-accordion-head__title">Оплата</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="steps-accordion-head__img">
+          </div>
+          <p class="steps-accordion-desc">
+            На первую встречу рекомендуется взять с собой любые материалы, которые помогут в выборе цветов. Это могут
+            быть визуализации интерьера или вдохновляющие фотографии.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- steps end  -->
+
+  <!-- colors head -->
+  <section class="colors">
+    <div class="container">
+      <div class="colors-wrap">
+        <img src="./assets/images/color.jfif" alt="" class="colors__img">
+        <div class="colors-content">
+          <h2 class="colors__title">Как выбрать цвет, который идеально подойдет вам?</h2>
+          <img src="./assets/images/color.jfif" alt="" class="colors-m__img">
+          <p class="colors__desc">
+            Для наглядности лучше всего заказать бесплатные пробники или выкрасы — так вы сможете оценить, как выбранный
+            цвет выглядит в вашем помещении при разном освещении
+          </p>
+          <a href="#" class="btn colors-btn">Заказать пробники</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- colors end -->
+
+  <!-- questions head -->
+  <section class="questions">
+    <div class="container">
+      <h2 class="questions__title">Ответы на вопросы</h2>
+      <div class="questions-accordions">
+        <div class="questions-accordion">
+          <div class="questions-accordion-head active">
+            <p class="questions-accordion-head__title">Как правильно выбрать цвет краски для моего интерьера?</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="questions-accordion-head__img">
+          </div>
+          <div class="questions-accordion-desc">
+            <p>
+              Чтобы выбрать идеальный цвет, учитывайте освещение комнаты, размеры пространства и стиль мебели.
+              Рекомендуем
+              сначала попробовать пробники или выкрасы, чтобы увидеть, как цвет будет смотреться на месте
+            </p>
+          </div>
+        </div>
+        <div class="questions-accordion">
+          <div class="questions-accordion-head active">
+            <p class="questions-accordion-head__title">В чем разница между матовой и глянцевой краской?</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="questions-accordion-head__img">
+          </div>
+          <div class="questions-accordion-desc">
+            <p>
+              Чтобы выбрать идеальный цвет, учитывайте освещение комнаты, размеры пространства и стиль мебели.
+              Рекомендуем
+              сначала попробовать пробники или выкрасы, чтобы увидеть, как цвет будет смотреться на месте
+            </p>
+          </div>
+        </div>
+        <div class="questions-accordion">
+          <div class="questions-accordion-head">
+            <p class="questions-accordion-head__title">Какая краска лучше подходит для помещений с высокой влажностью?
+            </p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="questions-accordion-head__img">
+          </div>
+          <div class="questions-accordion-desc">
+            <p>
+              Чтобы выбрать идеальный цвет, учитывайте освещение комнаты, размеры пространства и стиль мебели.
+              Рекомендуем
+              сначала попробовать пробники или выкрасы, чтобы увидеть, как цвет будет смотреться на месте
+            </p>
+          </div>
+        </div>
+        <div class="questions-accordion">
+          <div class="questions-accordion-head">
+            <p class="questions-accordion-head__title">Сколько краски мне понадобится для окрашивания комнаты?</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="questions-accordion-head__img">
+          </div>
+          <div class="questions-accordion-desc">
+            <p>
+              Чтобы выбрать идеальный цвет, учитывайте освещение комнаты, размеры пространства и стиль мебели.
+              Рекомендуем
+              сначала попробовать пробники или выкрасы, чтобы увидеть, как цвет будет смотреться на месте
+            </p>
+          </div>
+        </div>
+        <div class="questions-accordion">
+          <div class="questions-accordion-head">
+            <p class="questions-accordion-head__title">Можно ли подобрать краску точно по моему образцу?</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="questions-accordion-head__img">
+          </div>
+          <div class="questions-accordion-desc">
+            <p>
+              Чтобы выбрать идеальный цвет, учитывайте освещение комнаты, размеры пространства и стиль мебели.
+              Рекомендуем
+              сначала попробовать пробники или выкрасы, чтобы увидеть, как цвет будет смотреться на месте
+            </p>
+          </div>
+        </div>
+        <div class="questions-accordion">
+          <div class="questions-accordion-head">
+            <p class="questions-accordion-head__title">Какой способ оплаты доступен, и возможна ли доставка?</p>
+            <img src="./assets/images/accordion-arrow-down.svg" alt="" class="questions-accordion-head__img">
+          </div>
+          <div class="questions-accordion-desc">
+            <p>
+              Чтобы выбрать идеальный цвет, учитывайте освещение комнаты, размеры пространства и стиль мебели.
+              Рекомендуем
+              сначала попробовать пробники или выкрасы, чтобы увидеть, как цвет будет смотреться на месте
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- questions end -->
+
+  <!-- faq head -->
+  <section class="faq">
+    <div class="container">
+      <div class="faq-wrap">
+        <div class="faq-content">
+          <h2 class="faq__title">
+            Остались вопросы?
+          </h2>
+          <p class="faq__desc">
+            Свяжитесь с нами прямо сейчас, и наши эксперты помогут вам с выбором краски, расчетом нужного объема и
+            оформлением заказа! Сделайте ваш ремонт проще с нашей профессиональной поддержкой!
+          </p>
+        </div>
+        <div class="faq-content-btns">
+          <a href="#" class="btn faq-green-btn interior-btn interior-btn__icon">
+            написать на whatsapp
+          </a>
+          <a href="#" class="btn faq-btn faq-btn__icon">
+            Позвонить
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- faq end -->
+
+  <!-- guides head desktop -->
+  <section class="guides-desktop">
+    <div class="container">
+      <div class="guides-desktop-head">
+        <h2 class="guides-desktop-head__title">Полезные статьи</h2>
+        <a href="#" class="btn guides-btn">прочитать все</a>
+      </div>
+      <div class="guides-wrap">
+        <div class="guides-content-big">
+          <p class="guides-swiper__text guides-swiper__text--icon">чем покрасить террасу</p>
+        </div>
+        <div class="guides-contents">
+          <div class="guides-content">
+            <div class="guides-content__img">
+              <img src="./assets/images/room-interior-design-1.jpg" alt="">
+            </div>
+            <div class="guides-content__info">
+              <h5 class="guides-content__title">лакировка паркета и деревянного пола</h5>
+              <p class="guides-content__desc">
+                Для успешной лакировки паркета или деревянного пола важно тщательно подготовить поверхность, выбрать
+                качественный лак (лучше полиуретановый или водоэмульсионный) и нанести его в несколько тонких слоев. Лак
+                защитит поверхность от износа и придаст ей блеск, подчеркивая текстуру древесины.
+              </p>
+            </div>
+          </div>
+          <div class="guides-content">
+            <div class="guides-content__img">
+              <img src="./assets/images/room-interior-design-2.jpg" alt="">
+            </div>
+            <div class="guides-content__info">
+              <h5 class="guides-content__title">лакировка паркета и деревянного пола</h5>
+              <p class="guides-content__desc">
+                Для успешной лакировки паркета или деревянного пола важно тщательно подготовить поверхность, выбрать
+                качественный лак (лучше полиуретановый или водоэмульсионный) и нанести его в несколько тонких слоев. Лак
+                защитит поверхность от износа и придаст ей блеск, подчеркивая текстуру древесины.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="guides-swiper-box">
+        <div class="swiper guidesSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="guides-swiper">
+                <p class="guides-swiper__text guides-swiper__text--icon">чем покрасить террасу</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="guides-swiper">
+                <p class="guides-swiper__text guides-swiper__text--icon">чем покрасить террасу</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="guides-swiper">
+                <p class="guides-swiper__text guides-swiper__text--icon">чем покрасить террасу</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next-guides"><img src="./assets/images/arrow-circle-left-guides.svg" alt=""></div>
+          <div class="swiper-button-prev-guides"><img src="./assets/images/arrow-circle-left-guides.svg" alt=""></div>
+        </div>
+        <div class="swiper-pagination-guides"></div>
+      </div>
+      <a href="#" class="btn guides-btn guides-m-btn">прочитать все</a>
+    </div>
+  </section>
+  <!-- guides end desktop -->
+
+  <footer class="footer-desktop">
+    <div class="container">
+      <div class="footer-d-wrap">
+        <div class="footer-d-content-logo">
+          <img src="./assets/images/logo.svg" alt="" class="footer-d__logo">
+        </div>
+        <div class="footer-d-box">
+          <div class="footer-d-content">
+            <div class="footer-d-content__title">Информация</div>
+            <div class="footer-d-content-links">
+              <a href="" class="footer-d-content__link">Магазины</a>
+              <a href="" class="footer-d-content__link">Блог</a>
+              <a href="" class="footer-d-content__link">Проекты</a>
+              <a href="" class="footer-d-content__link">Реквизиты</a>
+            </div>
+          </div>
+          <div class="footer-d-content">
+            <div class="footer-d-content__title">ПОМОЩЬ</div>
+            <div class="footer-d-content-links">
+              <a href="" class="footer-d-content__link">Условия оплаты</a>
+              <a href="" class="footer-d-content__link">Условия доставки</a>
+              <a href="" class="footer-d-content__link">Гарантия на товар</a>
+              <a href="" class="footer-d-content__link">Вопрос - ответ</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-d-content">
+          <div class="footer-d-content__title">Контакты</div>
+          <div class="footer-d-contacts">
+            <div class="footer-d-contacts-location">
+              <img src="./assets/images/location.svg" alt="">
+              <p class="footer-d-contacts__adress">г. Алматы, пр. Жібек - Жолы 135, бутик А24</p>
+            </div>
+            <div class="footer-d-contacts-content-calls">
+              <div class="footer-d-contacts-content-box">
+                <img src="./assets/images/footer-call.svg" alt="">
+                <p class="footer-d-contacts-content__number">+7 778 004 10 90</p>
+              </div>
+              <a class="footer-d-contacts-content_call" href="tel:+77780041090">Заказать звонок</a>
+            </div>
+            <div class="footer-d-contacts-content">
+              <img src="./assets/images/sms.svg" alt="">
+              <a href="mailto:paintcenter5@gmail.com"
+                class="footer-d-contacts-content__email">paintcenter5@gmail.com</a>
+            </div>
+            <div class="footer-d-socials">
+              <a href="#" class="footer-d-social__link">
+                <img src="./assets/images/footer-wh.svg" alt="">
+                <p>+ 7 778 004 10 90</p>
+              </a>
+              <a href="#" class="footer-d-social__link">
+                <img src="./assets/images/footer-insta.svg" alt="">
+                <p>Paintcenter.kz</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="footer-d__text">Все права защищены. 2024</p>
+    </div>
+  </footer>
+
+  <!-- footer head mobile -->
+  <footer class="footer-mobile">
+    <div class="footer-mobile-accordions">
+      <div class="footer-mobile-accordion">
+        <div class="footer-mobile-accordion-head">
+          <p class="footer-mobile-accordion-head__title">Контакты</p>
+          <img class="footer-mobile-accordion-head__img" src="./assets/images/arrow-up.svg" alt="">
+        </div>
+        <div class="footer-mobile-accordion-content">
+          <div class="footer-mobile-accordion-contacts">
+            <div class="footer-contact-content-location">
+              <img src="./assets/images/location.svg" alt="">
+              <p class="footer-contact-content__adress">г. Алматы, пр. Жібек - Жолы 135, бутик А24</p>
+            </div>
+            <div class="footer-contact-content">
+              <img src="./assets/images/footer-call.svg" alt="">
+              <p class="footer-contact-content__number">+7 778 004 10 90</p>
+              <a class="btn footer-contact-content__call" href="tel:+77780041090">Заказать звонок</a>
+            </div>
+            <div class="footer-contact-content">
+              <img src="./assets/images/sms.svg" alt="">
+              <a href="mailto:paintcenter5@gmail.com" class="footer-contact-content__email">paintcenter5@gmail.com</a>
+            </div>
+            <div class="footer-contact-content">
+              <img src="./assets/images/footer-clock.svg" alt="">
+              <p>Пн-Пт с 9:00 до 21:00</p>
+            </div>
+            <div class="footer-socials">
+              <a href="#" class="footer-social">
+                <img src="./assets/images/footer-wh.svg" alt="">
+                <p>+ 7 778 004 10 90</p>
+              </a>
+              <a href="#" class="footer-social">
+                <img src="./assets/images/footer-insta.svg" alt="">
+                <p>Paintcenter.kz</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-mobile-accordion">
+        <div class="footer-mobile-accordion-head">
+          <p class="footer-mobile-accordion-head__title">Информация</p>
+          <img class="footer-mobile-accordion-head__img" src="./assets/images/arrow-up.svg" alt="">
+        </div>
+        <div class="footer-mobile-accordion-content">
+          <div class="footer-mobile-accordion-info">
+            <a href="#" class="footer-mobile-accordion-info__link">Магазины</a>
+            <a href="#" class="footer-mobile-accordion-info__link">Блог</a>
+            <a href="#" class="footer-mobile-accordion-info__link">Проекты</a>
+            <a href="#" class="footer-mobile-accordion-info__link">Реквизиты</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-mobile-accordion">
+        <div class="footer-mobile-accordion-head">
+          <p class="footer-mobile-accordion-head__title">Помощь</p>
+          <img class="footer-mobile-accordion-head__img" src="./assets/images/arrow-up.svg" alt="">
+        </div>
+        <div class="footer-mobile-accordion-content">
+          <div class="footer-mobile-accordion-info">
+            <a href="#" class="footer-mobile-accordion-info__link">Условия оплаты</a>
+            <a href="#" class="footer-mobile-accordion-info__link">Условия доставки</a>
+            <a href="#" class="footer-mobile-accordion-info__link">Гарантия на товар</a>
+            <a href="#" class="footer-mobile-accordion-info__link">Вопрос - ответ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <a href="" class="footer__logo"><img src="./assets/images/logo.svg" alt=""></a>
+      <p class="footer__text">Все права защищены. 2024</p>
+    </div>
+  </footer>
+  <!-- footer end mobile -->
+
+  <!-- wrap button head -->
+  <div class="wrap-button">
+    <a href="https://wa.me/+77780041090"><img src="./assets/images/footer-wh.svg" alt="">Написать</a>
+    <a href="tel:+77780041090"><img src="./assets/images/call-calling-wrap-btn.svg" alt="">Позвонить</a>
+  </div>
+  <!-- wrap button end -->
+</body>
+
+</html>
