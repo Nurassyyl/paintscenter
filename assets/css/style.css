@@ -2063,14 +2063,6 @@ main {
   }
 }
 
-@media screen and (max-width: 480px) {
-
-  .paints-carts-recommended,
-  .paints-carts {
-    width: 95%;
-  }
-}
-
 @media screen and (max-width: 390px) {
 
   main {
@@ -2220,6 +2212,7 @@ main {
     padding: 20px 20px 10px;
     margin-top: 20px;
     background-color: #fff;
+    max-width: 355px;
   }
 
   .paints-carts__title {
