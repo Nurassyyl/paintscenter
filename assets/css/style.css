@@ -458,16 +458,27 @@ main {
 .paints {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 -10px -10px -10px;
+}
+
+.paints-banner {
+  width: 75%;
+  padding: 0 10px;
+  flex: 0 0 75%;
+  margin-bottom: 10px;
+}
+
+.paints-wrap {
+  padding: 0 10px;
+  margin-bottom: 10px;
 }
 
 .paints-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
 }
 
 .paints-content-small {
@@ -479,8 +490,7 @@ main {
   color: #F6F6F6;
   padding-top: 91px;
   padding-left: 60px;
-  width: 1105px;
-  max-width: 100%;
+  width: 100%;
   flex-shrink: 1;
   grid-area: paints-content-small;
 }
@@ -512,54 +522,59 @@ main {
   padding: 20px 20px 10px;
   background-color: #fff;
   /* max-width: 355px; */
-  width: 25%;
+  /* width: 25%; */
 }
 
-.paints :nth-child(1) {
+.paints-wrap {
+  width: 25%;
+  flex: 0 0 25%;
+}
+
+.paints-banner:nth-child(1) {
   order: 1;
 }
 
-.paints :nth-child(2) {
+.paints-wrap:nth-child(2) {
   order: 2;
 }
 
-.paints :nth-child(3) {
+.paints-wrap:nth-child(3) {
   order: 3;
 }
 
-.paints :nth-child(4) {
+.paints-wrap:nth-child(4) {
   order: 4;
 }
 
-.paints :nth-child(5) {
+.paints-wrap:nth-child(5) {
   order: 5;
 }
 
-.paints :nth-child(6) {
+.paints-wrap:nth-child(6) {
   order: 6;
 }
 
-.paints-dark :nth-child(1) {
+.paints-dark .paints-wrap:nth-child(1) {
   order: 2;
 }
 
-.paints-dark :nth-child(2) {
+.paints-dark .paints-wrap:nth-child(2) {
   order: 1;
 }
 
-.paints-dark :nth-child(3) {
+.paints-dark .paints-wrap:nth-child(3) {
   order: 3;
 }
 
-.paints-dark :nth-child(4) {
+.paints-dark .paints-wrap:nth-child(4) {
   order: 4;
 }
 
-.paints-dark :nth-child(5) {
+.paints-dark .paints-wrap:nth-child(5) {
   order: 5;
 }
 
-.paints-dark :nth-child(6) {
+.paints-dark .paints-wrap:nth-child(6) {
   order: 6;
 }
 
@@ -570,8 +585,7 @@ main {
   padding: 46px 20px 10px;
   background-color: #fff;
   /* max-width: 355px; */
-  width: 25%;
-  grid-area: paints-carts;
+  /* width: 25%; */
 }
 
 .paints-carts__title {
@@ -1223,6 +1237,7 @@ main {
   padding: 18px 0;
   width: 470px;
   max-width: 100%;
+  font-size: 16px;
   font-weight: 600;
   background-color: #D12715;
 }
@@ -1380,7 +1395,7 @@ main {
 }
 
 .guides-content__title {
-  font-size: 24px;
+  font-size: clamp(1.25rem, 1.1863rem + 0.2614vw, 1.5rem);
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 20px;
@@ -1388,7 +1403,7 @@ main {
 }
 
 .guides-content__desc {
-  font-size: 20px;
+  font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
   font-weight: 300;
   line-height: 30px;
   overflow: hidden;
@@ -1585,7 +1600,7 @@ main {
 }
 
 @media screen and (max-width: 1539px) {
-  .paints-dark :nth-child(1) {
+  /* .paints-dark :nth-child(1) {
     order: 1;
   }
 
@@ -1600,14 +1615,12 @@ main {
   .paints-carts-recommended,
   .paints-carts {
     width: 32%;
-  }
-}
+  } */
 
-@media screen and (max-width: 1080px) {
 
-  .paints-carts-recommended,
-  .paints-carts {
-    width: 30%;
+
+  .guides-content-big {
+    height: 350px;
   }
 }
 
@@ -1621,7 +1634,7 @@ main {
   .steps-content {
     flex-direction: column;
   }
-}
+} 
 
 @media screen and (max-width: 1200px) {
   .btn-green {
@@ -1756,6 +1769,23 @@ main {
 
 }
 
+@media screen and (max-width: 1024px) {
+  .paints {
+    flex-wrap: wrap;
+  }
+
+  .paints-banner {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .paints-wrap {
+    width: 33.33%;
+    flex: 0 0 33.33%;
+  }
+}
+
+
 @media screen and (max-width: 992px) {
   /* main */
 
@@ -1796,13 +1826,6 @@ main {
     margin-top: 40px;
   }
 
-  /* paints */
-
-  .paints-carts-recommended,
-  .paints-carts {
-    width: 45%;
-  }
-
   /* faq */
   .faq-wrap {
     flex-direction: column;
@@ -1818,6 +1841,13 @@ main {
 
   .wrap-button {
     display: none;
+  }
+}
+
+@media screen and (max-width: 876px) {
+  .paints-wrap {
+    width: 50%;
+    flex: 0 0 50%;
   }
 }
 
@@ -1960,11 +1990,6 @@ main {
     margin-bottom: 10px;
   }
 
-  .paints-carts-recommended,
-  .paints-carts {
-    width: 80%;
-  }
-
   /* advantages */
 
   .advantages {
@@ -2028,6 +2053,13 @@ main {
     font-weight: 600;
     line-height: 19.36px;
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .paints-wrap {
+    width: 100%;
+    flex: 0 0 100%;
   }
 }
 
