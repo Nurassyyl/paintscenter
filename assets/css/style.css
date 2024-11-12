@@ -1826,6 +1826,13 @@ main {
     margin-top: 40px;
   }
 
+  /* paints */
+
+  .paints-content-small {
+    height: auto;
+    padding: 60px;
+  }
+
   /* faq */
   .faq-wrap {
     flex-direction: column;
@@ -2225,8 +2232,6 @@ main {
   .paintsSwiper {
     position: relative;
   }
-
-  .paints-swiper__img {}
 
   .swiper-button-next-paints,
   .swiper-button-prev-paints {
