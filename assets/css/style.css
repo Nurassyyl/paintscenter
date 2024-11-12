@@ -58,6 +58,7 @@ img {
 .btn-green {
   background-color: #25D366;
   color: #075E54;
+  width: clamp(10.625rem, 9.412vw + 8.331rem, 19.625rem);
   max-width: 100%;
 }
 
@@ -83,6 +84,10 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #000000;
+}
+
+body.hidden {
+  overflow: hidden;
 }
 
 .container {
@@ -307,7 +312,7 @@ main {
 }
 
 .btn-red {
-  width: 314px;
+  width: clamp(10.625rem, 9.412vw + 8.331rem, 19.625rem);
   max-width: 100%;
   font-weight: 600;
   line-height: 29.05px;
@@ -1637,11 +1642,6 @@ main {
 } 
 
 @media screen and (max-width: 1200px) {
-  .btn-green {
-    width: 301px;
-    max-width: 100%;
-  }
-
   .header {
     padding: 20px 0;
   }
@@ -1701,6 +1701,7 @@ main {
 
   .submenu-m.active {
     left: 0;
+    overflow-y: auto;
   }
 
   .submenu-close__btn {
