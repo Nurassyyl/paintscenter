@@ -2172,6 +2172,8 @@ main {
 
   .paints {
     padding: 20px 0;
+    align-items: center;
+    justify-content: center;
   }
 
   .paints-light-first {
