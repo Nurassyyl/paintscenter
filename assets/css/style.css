@@ -1413,7 +1413,7 @@ main {
 .footer-d-wrap {
   display: flex;
   align-items: flex-start;
-  gap: clamp(0.625rem, 29.286vw - 26.83rem, 8.313rem);
+  gap: clamp(1.25rem, 12.64vw - 6.855rem, 8.313rem);
 }
 
 .footer-d-content-logo {
